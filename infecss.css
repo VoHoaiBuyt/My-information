@@ -1,0 +1,11 @@
+.nut_xanh{
+    background-color: green;
+    color:white ;
+    font-size: 20px;
+    width: 100px;
+    height:100px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
