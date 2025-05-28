@@ -21,3 +21,10 @@ button{
     border: none;
     display:flex;
 }
+.body{
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+body.visible{
+    opacity: 3;
+}

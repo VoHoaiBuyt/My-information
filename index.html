@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+.back button {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: background 0.3s; transform: 0.2s;
+}
+.back button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -8,5 +25,11 @@
     <div class = "Info">
         <p id ="info"> Họ và tên: Võ Hoài Buýt </p>
     </div>
+    <div class ="back">
+        <button onclick="window.history.back()">Quay lại</button>
+    </div>
+    <script src = "Script.js">
+
+    </script>
 </body>
 </html>
