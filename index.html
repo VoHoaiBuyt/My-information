@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-.back button {
-    background-color: orange;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 24px;
-    cursor: pointer;
-    transition: background 0.3s; transform: 0.2s;
-}
-.back button:hover {
-    background-color: darkorange;
-    transform: scale(1.05);
-}
-
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "infecss.css">
 </head>
 <body>
-    <div class = "Info">
-        <p id ="info"> Họ và tên: Võ Hoài Buýt </p>
+    <div class = "center_box">
+    <input class = "name" type= "text" placeholder = "Họ và tên">
+    <div class = "gender">
+        <label><input class="Nam" type = "radio" name = "Gioi_tinh" value="Nam"> Nam </label>
+        <label><input class="Nu" type = "radio" name = "Gioi_tinh" value="Nữ"> Nữ </label>
+        <label><input class="other" type = "radio" name = "Gioi_tinh" value="Khác"> Khác </label>
     </div>
-    <div class ="back">
-        <button onclick="window.history.back()">Quay lại</button>
     </div>
+    <button class = "back" onclick="window.history.back()">Quay lại</button>
+    
     <script src = "Script.js">
 
     </script>
