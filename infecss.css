@@ -8,6 +8,10 @@
     background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
     background-size: 400% 400%;
     animation: gradientMove 5s ease infinite;
+    flex-direction: column;
+    gap: 17px;
+
+
 }
 .Nut_info{
     background-color: red;
@@ -21,6 +25,10 @@
     align-items: center;
     justify-content: center;
 }
+.Nut_info:hover{
+    background-color: rgb(221, 104, 104);
+    transform: scale(1.25);
+}
 .back  {
     background-color: orange;
     color: white;
@@ -31,7 +39,7 @@
     cursor: pointer;
     transition: background 0.3s; transform: 0.2s;
 }
-.back :hover {
+.back:hover {
     background-color: darkorange;
     transform: scale(1.25);
 }
@@ -51,6 +59,27 @@ input.name{
     height: 30px;
     top: 165px;
 }
+input.Email {
+    width:196px;
+    height: 30px;
+    top: 165px;
+}
+input.Dia_Chi{
+    width:196px;
+    height: 30px;
+    top: 165px;
+}
+input.SoDT{
+    width:196px;
+    height: 30px;
+    top: 165px;
+}
+input.Social{
+    width:250px;
+    height: 30px;
+    top: 165px;
+}
+
 @keyframes gradientMove {
     0% {
         background-position: 0% 50%;
